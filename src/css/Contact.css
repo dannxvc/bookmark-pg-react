@@ -1,0 +1,25 @@
+.contact-subtitle{
+    color: var(--white);
+}
+.section-contact{
+    background-color: var(--soft-blue);
+    padding: 5rem 0;
+}
+.contact-des{
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    color: var(--white);
+}
+.contact-input{
+    padding: 0.65rem 1.8rem;
+    border: 0.2rem solid var(--white);
+    border-radius: 0.3rem;
+}
+form{
+    margin-top: 2rem;
+}
+.btn-contact{
+    padding: 0.7rem 1.2rem;
+    letter-spacing: 0.02rem;
+}

@@ -6,7 +6,7 @@ import {ReactComponent as HeroSVG} from '../img/illustration-hero.svg';
 function Intro() {
     return ( 
         <Section
-            classSection="section"
+            classSection="section-intro"
         >
             <div className="intro">
                 <h1 className="title">A Simple Bookmark Manager</h1>
