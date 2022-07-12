@@ -22,9 +22,9 @@ function FAQ() {
         },
     };
     return ( 
-        <Section>
+        <Section classSection="section-secondary">
             <h2>Frequently Asked Questions</h2>
-            <p>
+            <p class="section-description">
                 Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.
             </p>
             {Object.keys(faqItems).map((key, i) => (

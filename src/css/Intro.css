@@ -11,17 +11,8 @@
 }
 .title{
     font-size: 3rem;
-    color: var(--very-dark-blue);
-    margin-bottom: 1.4rem;
-    font-weight: 500;
-}
-.intro-des{
-    color: var(--grayish-blue);
-    margin-bottom: 2rem;
-    line-height: 1.5;
 }
 .img-hero{
-    
     margin-right: -7rem;
 }
 .intro::after{
@@ -29,8 +20,8 @@
     position: absolute;
     top: 3.7rem;
     left: 46rem;
-    width: 50rem;
-    height: 22rem;
+    width: 100rem;
+    height: 21.7rem;
     border-radius: 11rem;
     color: var(--soft-blue);
     background: var(--soft-blue);

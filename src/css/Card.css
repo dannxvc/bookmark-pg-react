@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 1px 10px 17px -7px rgba(163, 159, 219, 0.55);
+    height: 23rem;
+    width: 17rem;
+    padding: 1.5rem 0;
+    justify-content: space-between;
+}
+.card-subtitle{
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+hr{
+    width: 100%;
+    border: none;
+    border-top: 0.3rem dotted rgba(163, 159, 219, 0.3);
+    margin: 0.6rem 0 -0.3rem 0;
+}
+.btn-card{
+    width: 85%;
+}
+.card-img{
+    margin-top: 1rem;
+}
+.card:nth-child(2){
+    margin-top:2.5rem;
+}
+.card:nth-child(3){
+    margin-top:5rem;
+}

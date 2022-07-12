@@ -10,6 +10,7 @@
     transition: background ease .3s;
     box-shadow: 1px 8px 14px -7px rgba(163, 159, 219, 0.45);
     color: var(--white);
+    letter-spacing: 0.04rem;
 }
 .btn-blue{
     padding: 0.85rem 1.5rem;

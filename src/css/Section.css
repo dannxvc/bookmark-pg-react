@@ -1,0 +1,12 @@
+section{
+    margin-bottom: 4rem;
+    padding: 3rem 0;
+}
+.section-secondary{
+    text-align: center;
+}
+.section-description{
+    width: 80%;
+    max-width: 34rem;
+    margin: 0 auto;
+}
