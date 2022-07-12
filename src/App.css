@@ -6,6 +6,14 @@
     --very-dark-blue: hsl(229, 31%, 21%);
     --white:rgb(255, 255, 255);
 }
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family: 'Rubik', sans-serif;
     background: var(--white);
@@ -13,4 +21,7 @@ body{
 }
 a{
     text-decoration: none;
+}
+.App{
+    padding: 0 10rem;
 }

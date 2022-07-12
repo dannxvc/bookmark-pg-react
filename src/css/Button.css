@@ -1,0 +1,34 @@
+.btn{
+    cursor: pointer;
+    padding: 0.6rem 2rem;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.4rem;
+    margin-left: 1.5rem;
+    transition: background ease .3s;
+    border: 0.15rem solid var(--soft-red) ;
+    box-shadow: 1px 8px 18px -7px rgba(98,96,128,0.65);
+}
+.btn-blue{
+
+}
+.btn-red{
+    background: var(--soft-red);
+    color: var(--white);
+}
+.btn-white{
+    
+}
+.btn-blue:hover{
+
+}
+.btn-red:hover{
+    background: var(--white);
+    color: var(--soft-red);
+    border: 0.15rem solid var(--soft-red) ;
+}
+.btn-white:hover{
+    
+}

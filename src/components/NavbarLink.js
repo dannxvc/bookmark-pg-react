@@ -1,16 +1,21 @@
+import Button from "./shared/Button";
+import "../css/Link.css";
 function Navbarlink() {
     const navItems = [
         <a href="/">FEATURES</a>,
         <a href="/">PRICING</a>,
-        <a href="/">CONTACT</a>,
-        <a href="/">LOGIN</a>
+        <a href="/">CONTACT</a>
     ];
     return (
-        <div>
+        <>
             {navItems.map((link, i) => (
-                <div>{link}</div>
+                <div className="link">{link}</div>
             ))}
-        </div>
+            <Button
+                text="LOGIN"
+                classButton="btn btn-red"
+            />
+        </>
     );
 }
 

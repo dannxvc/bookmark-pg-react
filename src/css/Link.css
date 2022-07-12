@@ -1,0 +1,12 @@
+.link{
+    padding: 0 1.5rem;
+}
+.link a{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color: var(--very-dark-blue);
+    transition: color ease .3s;
+}
+.link a:hover{
+    color: var(--soft-red);
+}
