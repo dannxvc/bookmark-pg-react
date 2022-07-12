@@ -1,5 +1,4 @@
 import Section from "./Section";
-import "../css/Features.css";
 function Features() {
     return ( 
         <Section classSection="section-secondary">
