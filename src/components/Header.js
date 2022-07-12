@@ -5,7 +5,9 @@ import Button from "./shared/Button";
 function Header() {
     return ( 
         <header className="header">
-            <LogoSVG alt="Logo Bookmark"/> 
+            <a href="#">
+                <LogoSVG alt="Logo Bookmark"/> 
+            </a>
             <nav className="navbar">
                 <Links></Links>
                 <Button

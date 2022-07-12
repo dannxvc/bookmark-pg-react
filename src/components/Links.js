@@ -1,9 +1,9 @@
 import "../css/Link.css";
 function Links() {
     const navItems = [
-        <a href="/">FEATURES</a>,
-        <a href="/">PRICING</a>,
-        <a href="/">CONTACT</a>
+        <a href="#features">FEATURES</a>,
+        <a href="#download">PRICING</a>,
+        <a href="#contact">CONTACT</a>
     ];
     return (
         <>

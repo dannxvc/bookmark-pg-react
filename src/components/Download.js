@@ -6,7 +6,7 @@ import {ReactComponent as firefoxSVG} from '../img/logo-firefox.svg';
 import {ReactComponent as operaVG} from '../img/logo-opera.svg';
 function Download() {
     return ( 
-        <Section classSection="section-secondary">
+        <Section id="download" classSection="section-secondary">
             <h2>
                 Download the extension
             </h2>

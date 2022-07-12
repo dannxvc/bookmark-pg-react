@@ -4,7 +4,7 @@ function Accordion({question,answer}) {
             <details className="accordion">
                     <summary className="question">
                         {question}
-                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                        <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
                     </summary>
                     <div className="answer">
                         <p className="answer-w">

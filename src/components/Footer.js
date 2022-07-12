@@ -4,8 +4,10 @@ import {ReactComponent as TwitterSVG} from '../img/icon-twitter.svg';
 import Links from './Links';
 function Footer() {
     return ( 
-        <footer>
-            <LogoSVG alt="Logo Bookmark"/> 
+        <footer className='footer'>
+            <a href="#">
+                <LogoSVG alt="Logo Bookmark"/> 
+            </a>
             <Links></Links>
             <FacebookSVG alt="Logo Facebook"/> 
             <TwitterSVG alt="Logo Facebook"/> 

@@ -1,7 +1,7 @@
 import Section from "./Section";
 function Features() {
     return ( 
-        <Section classSection="section-secondary">
+        <Section id="features" classSection="section-secondary">
             <h2>  
                 Features  
             </h2>

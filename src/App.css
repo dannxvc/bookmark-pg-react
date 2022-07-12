@@ -14,6 +14,7 @@ html{
     box-sizing: inherit;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Rubik', sans-serif;
@@ -22,6 +23,9 @@ body{
 }
 a{
     text-decoration: none;
+}
+.App{
+    overflow: hidden;
 }
 h1,h2{
     color: var(--very-dark-blue);

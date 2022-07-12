@@ -1,7 +1,7 @@
 import "../css/Section.css";
-function Section({children, classSection}) {
+function Section({children, classSection,id}) {
     return ( 
-        <section className={classSection}>
+        <section id={id} className={classSection}>
             {children}
         </section>
      );
