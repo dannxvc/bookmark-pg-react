@@ -1,34 +1,45 @@
 .btn{
     cursor: pointer;
-    padding: 0.6rem 2rem;
+    padding: 0.7rem 1.8rem;
     border: none;
     font-family: 'Rubik', sans-serif;
-    font-size: 0.9rem;
-    letter-spacing: 0.1rem;
-    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 0.3rem;
     margin-left: 1.5rem;
     transition: background ease .3s;
-    border: 0.15rem solid var(--soft-red) ;
-    box-shadow: 1px 8px 18px -7px rgba(98,96,128,0.65);
-}
-.btn-blue{
-
-}
-.btn-red{
-    background: var(--soft-red);
+    box-shadow: 1px 8px 14px -7px rgba(163, 159, 219, 0.45);
     color: var(--white);
 }
+.btn-blue{
+    padding: 0.85rem 1.5rem;
+    border: 0.15rem solid var(--soft-blue);
+    background: var(--soft-blue);
+    margin-left:0 ;
+}
+.btn-red{
+    letter-spacing: 0.1rem;
+    border: 0.15rem solid var(--soft-red);
+    background: var(--soft-red);
+}
 .btn-white{
-    
+    padding: 0.85rem 1.5rem;
+    border:  0.15rem solid var(--grayish-blue-light);
+    background: var(--grayish-blue-light);
+    color:var(--very-dark-blue);
 }
 .btn-blue:hover{
-
+    background: var(--white);
+    color: var(--soft-blue);
+    border: 0.15rem solid  var(--soft-blue) ;
 }
 .btn-red:hover{
     background: var(--white);
     color: var(--soft-red);
-    border: 0.15rem solid var(--soft-red) ;
+    border:   0.15rem solid var(--soft-red) ;
 }
 .btn-white:hover{
-    
+    color: var(--very-dark-blue);
+    background: var(--white);
+    border:  0.15rem solid var(--very-dark-blue) ;
 }

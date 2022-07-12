@@ -2,7 +2,7 @@
     padding: 0 1.5rem;
 }
 .link a{
-    font-size: 1rem;
+    font-size: 0.8rem;
     letter-spacing: 0.1rem;
     color: var(--very-dark-blue);
     transition: color ease .3s;

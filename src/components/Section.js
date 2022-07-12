@@ -1,6 +1,6 @@
-function Section({children}) {
+function Section({children, classSection}) {
     return ( 
-        <section>
+        <section className={classSection}>
             {children}
         </section>
      );

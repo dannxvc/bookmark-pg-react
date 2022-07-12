@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 :root{
-    --soft--blue:hsl(231, 69%, 60%);
+    --soft-blue:hsl(231, 69%, 60%);
     --soft-red: hsl(0, 94%, 66%);
     --grayish-blue: hsl(229, 8%, 60%);
+    --grayish-blue-light: hsl(0, 3%, 94%);
     --very-dark-blue: hsl(229, 31%, 21%);
     --white:rgb(255, 255, 255);
 }
@@ -23,5 +24,5 @@ a{
     text-decoration: none;
 }
 .App{
-    padding: 0 10rem;
+    padding: 0 11rem;
 }

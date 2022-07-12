@@ -1,18 +1,28 @@
 import Section from "./Section";
 import Button from "./shared/Button";
+import "../css/Intro.css";
 import {ReactComponent as HeroSVG} from '../img/illustration-hero.svg';
 
 function Intro() {
     return ( 
-        <Section>
-            <div>
-                <h1>A Simple Bookmark Manager</h1>
-                <p>A clean and simple interface to organize your favourite websites. Open a new 
-  browser tab and see your sites load instantly. Try it for free.</p>
+        <Section
+            classSection="section"
+        >
+            <div className="intro">
+                <h1 className="title">A Simple Bookmark Manager</h1>
+                <p className="intro-des">A clean and simple interface to organize your favourite websites. Open a new 
+    browser tab and see your sites load instantly. Try it for free.</p>
+                <Button 
+                    text={"Get it on Chrome"}
+                    classButton="btn btn-blue"
+                />
+                <Button 
+                    text={"Get it on Firefox"}
+                    classButton="btn btn-white"
+                />
             </div>
-            <Button text={"Get it on Chrome"}></Button>
-            <Button text={"Get it on Firefox"}></Button>
-            <HeroSVG></HeroSVG>
+            <HeroSVG className="img-hero"></HeroSVG>
+            
         </Section>
      );
 }
