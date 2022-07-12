@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Accordion from "./shared/Accordion";
 import Button from "./shared/Button";
-
+import "../css/Accordion.css";
 function FAQ() {
     const faqItems = {
         1: {
@@ -24,18 +24,21 @@ function FAQ() {
     return ( 
         <Section classSection="section-secondary">
             <h2>Frequently Asked Questions</h2>
-            <p class="section-description">
+            <p className="section-description">
                 Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.
             </p>
-            {Object.keys(faqItems).map((key, i) => (
-                <Accordion
-                    key={key}
-                    question={faqItems[key]["question"]}
-                    answer={faqItems[key]["answer"]}
-                />
-            ))}
+            <div className="section-accordion">
+                 {Object.keys(faqItems).map((key, i) => (
+                    <Accordion
+                        key={key}
+                        question={faqItems[key]["question"]}
+                        answer={faqItems[key]["answer"]}
+                    />
+                ))}
+            </div>
+           
             <Button
-                classButton=""
+                classButton="btn btn-blue"
                 text="More Info"
             />
         </Section>
