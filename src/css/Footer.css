@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 10.2rem;
+    background: var(--very-dark-blue);
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    width: 5.5rem;
+    justify-content: space-between;
+}
+.logo-footer{
+    margin-right: 2.5rem;
+}
+.icon-footer{
+    cursor: pointer;
+    transition: ease .3s;
+}
+.icon-footer:hover{
+    --icon:var(--soft-red) ;
+}

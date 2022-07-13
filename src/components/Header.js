@@ -9,7 +9,7 @@ function Header() {
                 <LogoSVG alt="Logo Bookmark"/> 
             </a>
             <nav className="navbar">
-                <Links></Links>
+                <Links classLink="link-nav"></Links>
                 <Button
                 text="LOGIN"
                 classButton="btn btn-red"
