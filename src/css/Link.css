@@ -4,8 +4,13 @@
 .link a{
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
-    color: var(--very-dark-blue);
     transition: color ease .3s;
+}
+.link-nav{
+    color: var(--very-dark-blue);
+}
+.link-footer{
+    color: var(--white);
 }
 .link a:hover{
     color: var(--soft-red);

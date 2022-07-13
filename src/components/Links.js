@@ -1,9 +1,9 @@
 import "../css/Link.css";
-function Links() {
+function Links({classLink}) {
     const navItems = [
-        <a href="#features">FEATURES</a>,
-        <a href="#download">PRICING</a>,
-        <a href="#contact">CONTACT</a>
+        <a className={classLink} href="#features">FEATURES</a>,
+        <a className={classLink} href="#download">PRICING</a>,
+        <a className={classLink} href="#contact">CONTACT</a>
     ];
     return (
         <>

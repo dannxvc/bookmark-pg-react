@@ -1,9 +1,10 @@
-.contact-subtitle{
-    color: var(--white);
-}
 .section-contact{
     background-color: var(--soft-blue);
     padding: 5rem 0;
+    margin-bottom: 0;
+}
+.contact-subtitle{
+    color: var(--white);
 }
 .contact-des{
     font-size: 0.8rem;
@@ -12,14 +13,21 @@
     color: var(--white);
 }
 .contact-input{
-    padding: 0.65rem 1.8rem;
+    width: 18rem;
+    padding: 0.75rem 1.1rem;
     border: 0.2rem solid var(--white);
     border-radius: 0.3rem;
+}
+.contact-input::placeholder{
+    font-family: 'Rubik', sans-serif;
+    color: var(--grayish-blue); 
+    opacity: 0.6;
 }
 form{
     margin-top: 2rem;
 }
 .btn-contact{
-    padding: 0.7rem 1.2rem;
+
+    padding: 0.8rem 1.2rem;
     letter-spacing: 0.02rem;
 }
