@@ -1,19 +1,19 @@
 import { useState } from "react";
 import FeatureBox from "./shared/FeatureBox";
 import '../css/FeatureTab.css';
-import {ReactComponent as FeatureOne} from '../img/illustration-features-tab-1.svg';
+import { default as FeatureOne } from '../img/illustration-features-tab-1.svg';
+//import {ReactComponent as FeatureOne} from '../img/illustration-features-tab-1.svg';
 import {ReactComponent as FeatureTwo} from '../img/illustration-features-tab-2.svg';
 import {ReactComponent as FeatureThree} from '../img/illustration-features-tab-3.svg';
 function FeatureTab() {
 
     
     const [value,setValues]= useState(1);
-    
     const featureItems = {
         1: {
             title: "Bookmark in one click",
-            description: "  Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.",
-            img:<FeatureOne className="img-f"/>
+            description: "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.",
+            img:<img className="img-f" src={FeatureOne} alt="Bookmark"/>
         },
         2: {
             title: "Intelligent search",
@@ -23,7 +23,7 @@ function FeatureTab() {
         3: {
             title: "Share your bookmarks",
             description: "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
-            img:<FeatureThree  className="img-f"/>
+            img:<FeatureThree className="img-f"/>
         },
     };
 
