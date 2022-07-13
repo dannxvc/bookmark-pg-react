@@ -6,6 +6,8 @@
     grid-template-rows: 1fr;
     padding-top: 4rem ;
     gap: 4rem;
+    max-width:90rem;
+    margin: 0 auto 5rem auto;
 }
 .intro{
     position: relative;
