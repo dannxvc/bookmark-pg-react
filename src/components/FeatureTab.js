@@ -2,9 +2,11 @@ import { useState } from "react";
 import FeatureBox from "./shared/FeatureBox";
 import '../css/FeatureTab.css';
 import { default as FeatureOne } from '../img/illustration-features-tab-1.svg';
+import { default as FeatureTwo } from '../img/illustration-features-tab-2.svg';
+import { default as FeatureThree } from '../img/illustration-features-tab-3.svg';
 //import {ReactComponent as FeatureOne} from '../img/illustration-features-tab-1.svg';
-import {ReactComponent as FeatureTwo} from '../img/illustration-features-tab-2.svg';
-import {ReactComponent as FeatureThree} from '../img/illustration-features-tab-3.svg';
+// import {ReactComponent as FeatureTwo} from '../img/illustration-features-tab-2.svg';
+// import {ReactComponent as FeatureThree} from '../img/illustration-features-tab-3.svg';
 function FeatureTab() {
 
     
@@ -18,12 +20,12 @@ function FeatureTab() {
         2: {
             title: "Intelligent search",
             description: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
-            img:<FeatureTwo className="img-f"/>
+            img:<img className="img-f" src={FeatureTwo} alt="Intelligent Search"/>
         },
         3: {
             title: "Share your bookmarks",
             description: "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
-            img:<FeatureThree className="img-f"/>
+            img:<img className="img-f" src={FeatureThree} alt="Share Bookmarks"/>
         },
     };
 
