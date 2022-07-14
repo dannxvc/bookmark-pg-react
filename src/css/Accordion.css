@@ -1,7 +1,7 @@
 .section-accordion{
-    width: 80%;
+    width: 83%;
     max-width: 34rem;
-    margin: 3rem auto;
+    margin: 3.5rem auto;
     text-align: left;
     color: var(--very-dark-blue);
 }
@@ -17,6 +17,7 @@
 .question{
     position: relative;
     cursor: pointer;
+    font-size: 0.94rem ;
 }
 .question:hover{
     position: relative;
@@ -28,7 +29,7 @@
 }
 .arrow{
     position: absolute;
-    right: .5rem;
+    right: -1rem;
     top: 0.3rem;
     stroke: var(--soft-blue);
 }
@@ -45,4 +46,15 @@
     color: var(--very-dark-blue);
     opacity: 0.8;
     line-height: 2rem;
+}
+
+@media only screen and (min-width:65rem) {
+    .question{
+        position: relative;
+        cursor: pointer;
+        font-size: 1.125rem ;
+    }
+    .arrow{
+        right: .5rem;
+    }
 }

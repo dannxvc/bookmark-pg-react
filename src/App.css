@@ -36,8 +36,9 @@ h1,h2{
     margin-bottom: 1.5rem;
 }
 h2{
-    font-size: 2rem;
-    width: 30rem;
+    font-size: 1.5rem;
+    width: 85%;
+    max-width: 30rem;
     margin: 0 auto 1.4rem auto;
 }
 h3{
@@ -49,4 +50,10 @@ p{
     color: var(--grayish-blue);
     margin-bottom: 2rem;
     line-height: 1.5;
+    font-size: 0.93rem;
+}
+@media only screen and (min-width:40rem) {
+    p{
+        font-size: 1.125rem;
+    }
 }

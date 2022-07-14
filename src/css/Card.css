@@ -6,7 +6,8 @@
     border-radius: 1rem;
     box-shadow: 1px 10px 17px -7px rgba(163, 159, 219, 0.55);
     height: 23rem;
-    width: 17rem;
+    width: 100%;
+    max-width: 56.5rem;
     padding: 1.5rem 0;
     justify-content: space-between;
 }
@@ -28,8 +29,16 @@ hr{
     margin-top: 1rem;
 }
 .card:nth-child(2){
-    margin-top:2.5rem;
+    margin-top:0;
 }
 .card:nth-child(3){
-    margin-top:5rem;
+    margin-top:0;
+}
+@media only screen and (min-width:65rem) {
+    .card:nth-child(2){
+        margin-top:2.5rem;
+    }
+    .card:nth-child(3){
+        margin-top:5rem;
+    }
 }

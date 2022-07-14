@@ -1,19 +1,20 @@
 .section-contact{
     background-color: var(--soft-blue);
-    padding: 5rem 0;
+    padding: 3.6rem 0;
     margin-bottom: 0;
 }
 .contact-subtitle{
     color: var(--white);
 }
 .contact-des{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 400;
     letter-spacing: 0.4rem;
     color: var(--white);
 }
 .contact-input{
-    width: 18rem;
+    width: 100%;
+    max-width: 100%;
     padding: 0.75rem 1.1rem;
     border: 0.2rem solid var(--white);
     border-radius: 0.3rem;
@@ -24,10 +25,36 @@
     opacity: 0.6;
 }
 form{
-    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    max-width: 30rem;
+    margin: 2rem auto 0 auto;
 }
 .btn-contact{
-
     padding: 0.8rem 1.2rem;
+    margin-left: 0;
+    margin-top: 1rem;
     letter-spacing: 0.02rem;
+}
+@media only screen and (min-width:65rem) {
+    .section-contact{
+        padding: 5rem 0;
+    }
+    form{
+        flex-direction: row;
+        width: 100%;
+        max-width: 30rem;
+    }
+    .contact-input{
+        width: 100%;
+        max-width: 18rem;
+        padding: 0.75rem 1.1rem;
+        border: 0.2rem solid var(--white);
+        border-radius: 0.3rem;
+    }
+    .btn-contact{
+        margin-left: 1rem;
+        margin-top: 0;
+    }
 }

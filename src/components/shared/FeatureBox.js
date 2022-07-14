@@ -2,8 +2,8 @@ import Button from './Button';
 function FeatureBox({title,description,img}) {
     return (  
         <div className="feature-box">     
-            <div>
-            {img}
+            <div className="feature-img">
+                {img}
             </div>
             <div>
                 <h3 className="feature-title">{title}</h3>

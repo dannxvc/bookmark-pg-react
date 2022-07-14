@@ -1,8 +1,17 @@
 .cards{
     display: grid;
     text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 3rem auto;
-    gap: 2.5rem;
-    width: 56.5rem;
+    grid-template-columns: 1fr;
+    margin: 3rem auto -0.6rem auto;
+    gap: 2rem;
+    width: 90%;
+    max-width: 17rem;
+    align-items: center;
+}
+@media only screen and (min-width:65rem) {
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 56.5rem;
+        margin: 3rem auto;
+    }
 }

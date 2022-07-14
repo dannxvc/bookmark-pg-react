@@ -1,40 +1,116 @@
 .feature{
-   padding: 3rem; 
+   padding: 0; 
+   margin-bottom: -9rem;
 }
 .feature-btns{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     width: 80%;
     max-width: 45rem;
-    margin: 0 auto;
+    margin: 2rem auto 0 auto;
 }
 .btn-feature{
     font-family: 'Rubik', sans-serif;
     color: var(--grayish-blue);
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: transparent;
     border: none;
     border-bottom: 0.15rem solid var(--grayish-blue-light);
     cursor: pointer;
     font-size: 1.1rem;
 }
+.btn-feature:focus{
+    color: var(--very-dark-blue);
+    border-bottom: 0.15rem solid var(--soft-red);
+}
 .feature-box{
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
     width: 82%;
     max-width:70rem;
     margin: 4rem auto;
-    padding: 4rem 0;
-    gap: 14rem;
-    text-align: left;
+    padding: 1.1rem 0 0 0;
+    gap: 5rem;
+    text-align: center;
     align-items: center;
 }
 .feature-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 .img-f{
+    position: initial;
+    width: 100%;
+    max-width: 27rem;
+}
+.feature-img::after{
+    content: ".";
     position: absolute;
-    top:1rem;
+    top: 3.3rem;
+    right: 2rem;
+    width: 100rem;
+    height: 12.5rem;
+    border-radius: 11rem;
+    color: var(--soft-blue);
+    background: var(--soft-blue);
+    z-index: -1;
+}
+
+@media only screen and (min-width:28rem) {
+    .btn-feature{
+        padding: 1.5rem;
+    }
+    .feature{
+        margin-bottom: 0;
+     }
+    .feature-img::after{
+        height: 20rem;
+    }
+    .feature-box{
+        padding: 0;
+    }
+}
+@media only screen and (min-width:50rem) {
+    .feature-title{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .feature-img::after{
+        top: 5rem;
+        right: 11rem;
+        height: 17rem;
+    }
+}
+@media only screen and (min-width:85rem) {
+    .feature{
+        padding: 3rem; 
+        margin: 0 auto;
+     }
+     .feature-btns{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+    .img-f{
+        position: absolute;
+        top:0;
+        left:0;
+        width:auto;
+        max-width: 33rem;
+    }
+    .feature-box{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 4rem auto;
+        padding: 4rem 0;
+        gap: 14rem;
+        text-align: left;
+        align-items: center;
+    }
+    .feature-img::after{
+        right: 39.8rem;
+        width: 70rem;
+        height: 22rem;
+    }
 }

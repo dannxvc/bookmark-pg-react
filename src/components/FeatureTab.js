@@ -4,9 +4,6 @@ import '../css/FeatureTab.css';
 import { default as FeatureOne } from '../img/illustration-features-tab-1.svg';
 import { default as FeatureTwo } from '../img/illustration-features-tab-2.svg';
 import { default as FeatureThree } from '../img/illustration-features-tab-3.svg';
-//import {ReactComponent as FeatureOne} from '../img/illustration-features-tab-1.svg';
-// import {ReactComponent as FeatureTwo} from '../img/illustration-features-tab-2.svg';
-// import {ReactComponent as FeatureThree} from '../img/illustration-features-tab-3.svg';
 function FeatureTab() {
 
     
@@ -41,7 +38,6 @@ function FeatureTab() {
                 description={featureItems[value]["description"]}
                 img={featureItems[value]["img"]}
             />
-            
         </div>
     );
 }

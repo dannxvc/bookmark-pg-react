@@ -2,9 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3.5rem 10.5rem;
+    padding: 2rem ;
 }
 .navbar{
     display: flex;
     align-items: center;
+}
+@media only screen and (min-width:65rem) {
+    .header{
+       padding: 3.5rem 10.5rem;
+    }
 }

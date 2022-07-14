@@ -6,14 +6,14 @@
     font-size: 0.8rem;
     font-weight: 500;
     border-radius: 0.3rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     transition: background ease .3s;
     box-shadow: 1px 8px 14px -7px rgba(163, 159, 219, 0.45);
     color: var(--white);
     letter-spacing: 0.04rem;
 }
 .btn-blue{
-    padding: 0.85rem 1.5rem;
+    padding: 0.85rem 0.83rem;
     border: 0.15rem solid var(--soft-blue);
     background: var(--soft-blue);
     margin-left:0 ;
@@ -24,7 +24,7 @@
     background: var(--soft-red);
 }
 .btn-white{
-    padding: 0.85rem 1.5rem;
+    padding: 0.85rem 0.83rem;
     border:  0.15rem solid var(--grayish-blue-light);
     background: var(--grayish-blue-light);
     color:var(--very-dark-blue);
@@ -43,4 +43,15 @@
     color: var(--very-dark-blue);
     background: var(--white);
     border:  0.15rem solid var(--very-dark-blue) ;
+}
+@media only screen and (min-width:40rem) {
+    .btn-blue{
+        padding: 0.85rem 1.5rem;
+    }
+    .btn-white{
+        padding: 0.85rem 1.5rem;
+    }
+    .btn{
+        margin-left: 1.5rem;
+    }
 }

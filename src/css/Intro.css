@@ -1,32 +1,79 @@
 .section-intro{
-    padding: 0 10.5rem;
+    padding: 0 5%;
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding-top: 4rem ;
-    gap: 4rem;
-    max-width:90rem;
-    margin: 0 auto 5rem auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding-top: 0rem;
+    gap: 3.1rem;
+    max-width:50rem;
+    margin: 2rem auto 6rem auto;
 }
 .intro{
     position: relative;
+    grid-row: 2;
+    text-align: center;
+    padding: 1rem;
 }
 .title{
-    font-size: 3rem;
+    font-size: 1.9rem;
 }
 .img-hero{
-    margin-right: -7rem;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem auto 0 auto;
 }
 .intro::after{
     content: ".";
     position: absolute;
-    top: 3.7rem;
-    left: 46rem;
+    bottom: 20.5rem;
+    left: 3.3rem;
     width: 100rem;
-    height: 21.7rem;
+    height: 12.6rem;
     border-radius: 11rem;
     color: var(--soft-blue);
     background: var(--soft-blue);
     z-index: -1;
+}
+@media only screen and (min-width:35rem) {
+    .intro::after{
+        bottom: 20.5rem;
+        left: -3rem;
+        width: 100rem;
+        height: 21.7rem;
+        border-radius: 11rem;
+        z-index: -1;
+    }  
+}
+@media only screen and (min-width:85rem) {
+    .title{
+        font-size: 3rem;
+    }
+    .img-hero{
+        width: 657px;
+        max-width: 657px;
+        margin-right: -7rem;
+    }
+    .section-intro{
+        padding: 0 10.5rem;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding-top: 4rem ;
+        gap: 4rem;
+        max-width:90rem;
+        margin: 0 auto 5rem auto;
+    }
+    .intro{
+        grid-row: 1;
+        text-align: left;
+    }
+    .intro::after{
+        top: 3.7rem;
+        left: 46rem;
+        width: 100rem;
+        height: 21.7rem;
+        border-radius: 11rem;
+        z-index: -1;
+    }
 }

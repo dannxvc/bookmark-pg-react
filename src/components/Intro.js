@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Button from "./shared/Button";
 import "../css/Intro.css";
-import {ReactComponent as HeroSVG} from '../img/illustration-hero.svg';
+import { default as HeroSVG } from '../img/illustration-hero.svg';
 
 function Intro() {
     return ( 
@@ -21,7 +21,7 @@ function Intro() {
                     classButton="btn btn-white"
                 />
             </div>
-            <HeroSVG className="img-hero"></HeroSVG>
+            <img src={HeroSVG} className="img-hero" alt="Hero Intro"></img>
             
         </Section>
      );
