@@ -25,7 +25,7 @@
     color: var(--soft-red);
 }
 .question::marker{
-    content: "";
+    content: none;
 }
 .arrow{
     position: absolute;

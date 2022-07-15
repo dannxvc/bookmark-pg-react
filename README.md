@@ -1,6 +1,6 @@
-# BookMark Web Page
+<h1 align="center">BookMark Web Page</h1>
 
-Live Site [Here](https://bookmark-pg-react.pages.dev/) 
+<p align="center">Live Site [Here](https://bookmark-pg-react.pages.dev/) </p>
 
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -29,11 +29,13 @@ Live Site [Here](https://bookmark-pg-react.pages.dev/)
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Mobile First WorkFlow
 - [React](https://reactjs.org/) - JS library
 
 ## Author
 
 - Frontend Mentor - [@dannxvc](https://www.frontendmentor.io/profile/yourusername)
-- Instagram - [@dannxvc](https://www.twitter.com/yourusername)
+- Portfolio - [@dannxvc](https://dannavila.pages.dev/)
+- Instagram - [@dannxvc](https://www.instagram.com/dannxvc/)
 
 
