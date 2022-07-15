@@ -5,6 +5,7 @@
     --grayish-blue: hsl(229, 8%, 60%);
     --grayish-blue-light: hsl(0, 3%, 94%);
     --very-dark-blue: hsl(229, 31%, 21%);
+    --blue-transparent: hsla(229, 31%, 21%,0.9);
     --white:rgb(255, 255, 255);
     --icon:rgb(255, 255, 255);
 }
@@ -21,6 +22,7 @@ body{
     font-family: 'Rubik', sans-serif;
     background: var(--white);
     font-size: 18px;
+    overflow: auto;
 }
 a{
     text-decoration: none;

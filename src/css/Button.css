@@ -45,13 +45,14 @@
     border:  0.15rem solid var(--very-dark-blue) ;
 }
 @media only screen and (min-width:40rem) {
-    .btn-blue{
-        padding: 0.85rem 1.5rem;
-    }
     .btn-white{
         padding: 0.85rem 1.5rem;
     }
     .btn{
         margin-left: 1.5rem;
+    }
+    .btn-blue{
+        margin-left:0 ;
+        padding: 0.85rem 1.5rem;
     }
 }

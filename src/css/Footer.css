@@ -27,6 +27,7 @@
     cursor: pointer;
     transition: ease .3s;
 }
+
 .icon-footer:hover{
     --icon:var(--soft-red) ;
 }

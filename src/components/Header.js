@@ -1,20 +1,41 @@
+import { useEffect, useState } from "react";
 import "../css/Header.css";
 import {ReactComponent as LogoSVG} from '../img/logo-bookmark.svg';
-import Links from "./Links";
-import Button from "./shared/Button";
+import NavBar from "./Navbar";
 function Header() {
+    const [open,setOpen]= useState("close");
+    const hamburguer = {
+        close: {
+            navopen: "",
+            ulopen: "",
+            hamopen:""
+        },
+        open: {
+            navopen: "open",
+            ulopen: "link-nav-open",
+            hamopen:"open"
+        }
+    };
+
+    useEffect(() => {
+        if (open === "open") {
+          document.body.style.overflow = "hidden";
+        } else {
+          document.body.style.overflow = "auto";
+        }
+    });
+
     return ( 
         <header className="header">
             <a href="#intro">
-                <LogoSVG alt="Logo Bookmark"/> 
+                <LogoSVG alt="Logo Bookmark" className="nav-logo"/> 
             </a>
-            <nav className="navbar">
-                <Links classLink="link-nav"></Links>
-                <Button
-                text="LOGIN"
-                classButton="btn btn-red"
+            <button className={`hamburguer ${hamburguer[open]["hamopen"]}`} onClick={()=> open === "close"?setOpen("open"): setOpen("close")}>
+            </button>
+            <NavBar 
+                isOpen={hamburguer[open]["navopen"]}
+                linkOpen={hamburguer[open]["ulopen"]}
             />
-            </nav>
         </header>
      );
 }

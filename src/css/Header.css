@@ -5,11 +5,43 @@
     padding: 2rem ;
 }
 .navbar{
-    display: flex;
+    display: none;
+    position: absolute;
+    background-color: var(--blue-transparent);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.navbar.open{
+    display: flex;
+}
+.hamburguer{
+    background-color: transparent;
+    border: none;
+    content: url(../img/icon-hamburger.svg);
+    display: flex;
+}
+.hamburguer.open{
+    z-index: 2;
+    content: url(../img/icon-close.svg);
+    display: flex;
 }
 @media only screen and (min-width:65rem) {
     .header{
-       padding: 3.5rem 10.5rem;
+        background-color: var(--white);
+        padding: 3.5rem 10.5rem;
+    }
+    .navbar{
+        display: flex;
+        position: initial;
+        flex-direction: row;
+        background-color: var(--white);
+    }
+    .hamburguer{
+        display: none;
     }
 }

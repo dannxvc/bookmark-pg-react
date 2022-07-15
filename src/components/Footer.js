@@ -13,7 +13,7 @@ function Footer() {
                         </g>
                     </svg>
                 </a>
-                <Links classLink="link-footer"></Links>
+                <Links classLink="link-footer" classUl="footer-items"></Links>
             </div>
             <div className='footer-icons'>
                 <svg className="icon-footer" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
