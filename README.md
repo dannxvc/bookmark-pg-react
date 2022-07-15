@@ -1,14 +1,14 @@
 <h1 align="center">BookMark Web Page</h1>
 
-<p align="center">Live Site [Here](https://bookmark-pg-react.pages.dev/) </p>
+<p align="center">Live Site <a href="https://bookmark-pg-react.pages.dev/">Here</a>.</p>
 
-1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-2. This is a solution to the [Bookmark landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+2. This is a solution to the [Bookmark landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158)
 
 ![](/src/img/screenshot-web-page.png)
 
-## Set Up
+## 👾 Set Up
 
 1. Start development server
 
@@ -16,14 +16,14 @@
    npm start
    ```
 
-## Build and Run for production
+## 👾 Build and Run for production
 1. Generate a full static production build
 
  ```sh
    npm run build
    ```
 
-### Built with
+### 🛠 Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -32,10 +32,10 @@
 - Mobile First WorkFlow
 - [React](https://reactjs.org/) - JS library
 
-## Author
+### 💻 Author
 
 - Frontend Mentor - [@dannxvc](https://www.frontendmentor.io/profile/yourusername)
 - Portfolio - [@dannxvc](https://dannavila.pages.dev/)
 - Instagram - [@dannxvc](https://www.instagram.com/dannxvc/)
-
+- LinkedIn - [@dannxvc](https://www.linkedin.com/in/dannxvc/)
 
