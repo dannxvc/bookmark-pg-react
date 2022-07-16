@@ -1,7 +1,7 @@
 import "../../css/Button.css";
-function Button({text,classButton }) {
+function Button({typeButton,text,classButton }) {
     return ( 
-        <button className={classButton}>
+        <button type={typeButton} className={classButton}>
                 {text}
         </button>
         

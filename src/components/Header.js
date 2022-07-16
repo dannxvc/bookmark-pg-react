@@ -8,12 +8,14 @@ function Header() {
         close: {
             navopen: "",
             ulopen: "",
-            hamopen:""
+            hamopen:"",
+            btnopen:""
         },
         open: {
             navopen: "open",
             ulopen: "link-nav-open",
-            hamopen:"open"
+            hamopen:"open",
+            btnopen:"btn-open"
         }
     };
 
@@ -35,6 +37,7 @@ function Header() {
             <NavBar 
                 isOpen={hamburguer[open]["navopen"]}
                 linkOpen={hamburguer[open]["ulopen"]}
+                btnOpen={hamburguer[open]["btnopen"]}
             />
         </header>
      );
