@@ -35,14 +35,12 @@ function FeatureTab() {
                     <button key={feature} className={`btn-feature ${value === feature&&"btn-feature-active"}`} value={value === feature} onClick={() => setValues(feature)}>{feature}</button>
                 ))}
             </div>
-            {Object.keys(featureItems).map((feature)=>(
+            
             <FeatureBox
-                key={feature}
-                title={featureItems[feature]["title"]}
-                description={featureItems[feature]["description"]}
-                img={featureItems[feature]["img"]}
+                title={featureItems[value]["title"]}
+                description={featureItems[value]["description"]}
+                img={featureItems[value]["img"]}
             />
-            ))}
         </div>
     );
 }
