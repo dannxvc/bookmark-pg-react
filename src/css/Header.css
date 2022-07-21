@@ -21,6 +21,7 @@
     display: flex;
 }
 .hamburguer{
+    cursor: pointer;
     background-color: transparent;
     border: none;
     content: url(../img/icon-hamburger.svg);

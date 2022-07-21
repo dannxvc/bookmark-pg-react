@@ -44,6 +44,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL : [Solution URL](https://www.frontendmentor.io/solutions/bookmark-landing-page-developed-with-reactjs-gptQjLFJXC)
 - Live Site URL: [Live site URL](https://bookmark-pg-react.pages.dev/) 
 
 ### 💻 Author

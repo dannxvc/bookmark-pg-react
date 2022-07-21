@@ -29,9 +29,7 @@ function Header() {
 
     return ( 
         <header className="header">
-            <a href="#intro">
-                <LogoSVG alt="Logo Bookmark" className="nav-logo"/> 
-            </a>
+            <LogoSVG className="nav-logo"/> 
             <button className={`hamburguer ${hamburguer[open]["hamopen"]}`} onClick={()=> open === "close"?setOpen("open"): setOpen("close")}>
             </button>
             <NavBar 
