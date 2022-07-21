@@ -1,5 +1,5 @@
 import "../css/Link.css";
-function Links({classLink, classUl}) {
+function Links({classLink, classUl,onClickLink}) {
     const navItems = [
         <a className={classLink} href="#features">FEATURES</a>,
         <a className={classLink} href="#download">PRICING</a>,
@@ -9,7 +9,7 @@ function Links({classLink, classUl}) {
         <ul className={classUl}>
             {navItems.map((link) => (
                 <>
-                    <li key={link} className="link">{link}</li>
+                    <li key={link} className="link" onClick={onClickLink}>{link}</li>
                 </>
                 ))}
         </ul>
