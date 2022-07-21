@@ -7,19 +7,21 @@ import { default as FeatureThree } from '../img/illustration-features-tab-3.svg'
 function FeatureTab() {
 
     
-    const [value,setValues]= useState(1);
+    const [value,setValues]= useState("Simple Bookmarking");
+
+
     const featureItems = {
-        1: {
+        "Simple Bookmarking": {
             title: "Bookmark in one click",
             description: "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.",
             img:<img className="img-f" src={FeatureOne} alt="Bookmark"/>
         },
-        2: {
+        "Speedy Searching": {
             title: "Intelligent search",
             description: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
             img:<img className="img-f" src={FeatureTwo} alt="Intelligent Search"/>
         },
-        3: {
+        "Easy Sharing": {
             title: "Share your bookmarks",
             description: "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
             img:<img className="img-f" src={FeatureThree} alt="Share Bookmarks"/>
@@ -29,15 +31,18 @@ function FeatureTab() {
     return (
         <div className="feature">
             <div className="feature-btns">
-                <button className="btn-feature" onClick={() => setValues(1)}>Simple Bookmarking</button>
-                <button className="btn-feature" onClick={() => setValues(2)}>Speedy Searching</button>
-                <button className="btn-feature" onClick={() => setValues(3)}>Easy Sharing</button>
+                {Object.keys(featureItems).map((feature)=>(
+                    <button key={feature} className={`btn-feature ${value === feature&&"btn-feature-active"}`} value={value === feature} onClick={() => setValues(feature)}>{feature}</button>
+                ))}
             </div>
+            {Object.keys(featureItems).map((feature)=>(
             <FeatureBox
-                title={featureItems[value]["title"]}
-                description={featureItems[value]["description"]}
-                img={featureItems[value]["img"]}
+                key={feature}
+                title={featureItems[feature]["title"]}
+                description={featureItems[feature]["description"]}
+                img={featureItems[feature]["img"]}
             />
+            ))}
         </div>
     );
 }

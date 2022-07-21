@@ -7,9 +7,9 @@ function Links({classLink, classUl}) {
     ];
     return (
         <ul className={classUl}>
-            {navItems.map((link, i) => (
+            {navItems.map((link) => (
                 <>
-                    <li className="link">{link}</li>
+                    <li key={link} className="link">{link}</li>
                 </>
                 ))}
         </ul>

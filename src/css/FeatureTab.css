@@ -18,10 +18,11 @@
     border-bottom: 0.15rem solid var(--grayish-blue-light);
     cursor: pointer;
     font-size: 1.1rem;
+    /* transition: ease border-bottom .3s; */
 }
-.btn-feature:focus{
+.btn-feature-active{
     color: var(--very-dark-blue);
-    border-bottom: 0.15rem solid var(--soft-red);
+    border-bottom: 0.3rem solid var(--soft-red);
 }
 .feature-box{
     position: relative;
