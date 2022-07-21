@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem ;
+    padding: 2.2rem ;
 }
 .navbar{
     display: none;
@@ -35,14 +35,14 @@
 @media only screen and (min-width:65rem) {
     .header{
         background-color: var(--white);
-        padding: 3.5rem 10.5rem;
+        padding: 3.1rem 10.6rem;
     }
     .navbar{
         display: flex;
         position: initial;
         flex-direction: row;
         background-color: var(--white);
-    min-height: auto;
+        min-height: auto;
 
     }
     .hamburguer{
