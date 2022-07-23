@@ -35,7 +35,7 @@ function Header() {
             <NavBar 
                 isOpen={hamburguer[open]["navopen"]}
                 linkOpen={hamburguer[open]["ulopen"]}
-                onClickLink={()=> open === "close"?setOpen("open"): setOpen("close")}
+                onClickLink={()=> open === "open"?setOpen("close"): setOpen("close")}
                 btnOpen={hamburguer[open]["btnopen"]}
             />
         </header>
