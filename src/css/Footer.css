@@ -89,7 +89,7 @@
     }
     .footer-attribution p{
        font-size:0.8rem ; 
-       margin: 0.5rem 0;
+       margin: 0.5rem 0 0 0;
     }
     .footer-attribution p a{
         display: inline;
