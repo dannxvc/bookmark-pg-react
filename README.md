@@ -50,7 +50,7 @@ Users should be able to:
 ### 💻 Author
 
 - Frontend Mentor - [@dannxvc](https://www.frontendmentor.io/profile/yourusername)
-- Portfolio - [@dannxvc](https://dannavila.pages.dev/)
+- Portfolio - [@dannxvc](https://danna.pages.dev/)
 - Instagram - [@dannxvc](https://www.instagram.com/dannxvc/)
 - LinkedIn - [@dannxvc](https://www.linkedin.com/in/dannxvc/)
 

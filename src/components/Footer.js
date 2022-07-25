@@ -26,7 +26,7 @@ function Footer() {
             <div class="footer-attribution">
                 <p>
                     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-                    Coded by <a href="https://dannavila.pages.dev/">Danna Vila</a>.
+                    Coded by <a href="https://danna.pages.dev/">Danna Vila</a>.
                 </p> 
             </div>
         </footer>
